@@ -1,0 +1,105 @@
+
+.navdrop{
+  position: absolute;
+  float: left;
+  margin: 20px;
+  z-index: 5;
+}
+.navdrop .drop-btn{
+  width: 200px;
+  background: #242526;
+  border-radius: 5px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #b0b3b8;
+  padding: 0 20px;
+  cursor: pointer;
+}
+.navdrop .drop-btn span{
+  float: right;
+  line-height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navdrop .tooltip{
+  position: absolute;
+  right: 17.5px;
+  bottom: -20px;
+  height: 15px;
+  width: 15px;
+  background: #242526;;
+  transform: rotate(45deg);
+  display: none;
+}
+
+.navdrop .tooltip.show{
+  display: block;
+}
+
+.navdrop .dropwrapper{
+  position: absolute;
+  top: 38px;
+  display: flex;
+  width: 200px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #242526;
+  display: none;
+  transition: all 0.3s ease;
+}
+.navdrop .dropwrapper.show{
+  display: block;
+  display: flex;
+}
+
+.navdrop #drpspn.show{
+  transform: rotate(180deg);
+}
+
+
+.dropwrapper ul{
+  width: 400px;
+  list-style: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+.dropwrapper ul li{
+  line-height: 30px;
+}
+.dropwrapper ul li a{
+  position: relative;
+  color: #b0b3b8;
+  font-size: 16px;
+  padding: 0 10px;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  text-decoration: none;
+}
+.dropwrapper ul li:hover a{
+  background: #3A3B3C;
+}
+
+.dropwrapper .arrow{
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #b0b3b8;
+  cursor: pointer;
+}
+.dropwrapper .arrow span{
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  
+.navdrop{
+ top: 5rem;
+}
+
+.drp{
+  margin: 40px;
+}
+
+}

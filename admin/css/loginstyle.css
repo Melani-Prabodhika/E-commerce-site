@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:300,400|Oswald:400,700');
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Lato', sans-serif;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+}
+
+/***************/
+
+body{
+	background: url('../images/background.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.login-card-wrp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.login-card{
+	background: rgba(0, 0, 0, 0.8);
+	padding: 40px;
+	width: 350px;
+	
+}
+
+.from-group{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.from-group .icon{
+	background: #fff;
+	height: 40px;
+	width: 35px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 10px;
+	color: black;
+}
+
+.form-input{
+	width: 100%;
+}
+
+.form-control{
+	width: 100%;
+	height: 40px;
+	padding: 6px 12px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 1px solid transparent;
+	outline-width: 0;
+}
+
+
+.btn-submit{
+	background: black;
+	border: 1px solid #3fc8e0;
+	display: block;
+	width: 100%;
+	padding: 12px 12px;
+	margin-top: 35px;
+	color: #fff;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	cursor: pointer
+	
+}
+
+.btn-submit:hover{
+	opacity: 0.8;
+}
+
+.field_error{
+	color:red;
+	margin-top:15px;
+}

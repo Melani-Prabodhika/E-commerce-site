@@ -1,0 +1,16 @@
+/* CSS Document */
+.wrppr{
+	margin:20px;
+	align-items:center;
+}
+
+.d-block{
+	background-size: cover!important;
+	color: honeydew;
+}
+
+.card{text-align: center; border: none; border-radius: 5px;-webkit-box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
+box-shadow: 12px 14px 22px 2px rgba(0,0,0,0.75);
+margin-bottom: 100px;
+}
